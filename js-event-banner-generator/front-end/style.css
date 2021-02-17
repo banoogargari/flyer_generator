@@ -1,0 +1,80 @@
+body{
+    background: #eee;
+  }
+  form{
+    max-width: 200px;
+    padding: 10px;
+  }
+
+
+
+input{
+    display: block;
+    margin: 10px auto;
+    padding: 4px;
+  }
+
+#banner-design{
+    background: rgb(255,225,225);
+    padding: 20px;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border-style: dashed;
+    
+}
+
+
+#joinUs{
+    text-align: center;
+    flex: 0 0 100%;
+    font-family: cursive;
+
+}
+
+#eventTitle{
+    background: darkmagenta;
+    color: azure;
+    flex: 0 0 90%;
+
+    font-family: 'Ranchers', cursive;
+    font-size: 170%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    border-style: solid;
+}
+
+
+
+#time{
+    color: darkgoldenrod;
+    flex: 0 0 100%;
+    font-family: 'Ranchers', cursive;
+    text-align: center;
+    
+}
+#presenter{
+    color: darkgreen;
+    flex: 0 0 100%;
+    text-align: center;
+    font-family: 'Ranchers', cursive;
+    
+}
+#summary{
+    color: rgb(158, 28, 34);
+    flex: 0 0 100%;
+    text-align: center;
+    font-family: 'Ranchers', cursive;
+    
+    
+}
+#link{
+    color: rgb(224, 213, 205);
+    flex: 0 0 100%;
+    text-align: center;
+
+    
+}
